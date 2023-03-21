@@ -8,7 +8,6 @@
 %% put VBR in the path %%
 clear
 setup_vbr_paths
-vbr_init
 
 % List which anelastic methods to use
 methods = {'eburgers_psp','andrade_psp','xfit_mxw','xfit_premelt'};
